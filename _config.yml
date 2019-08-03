@@ -30,3 +30,6 @@ highlighter: rouge
 
 # Permalinks
 permalink: pretty
+
+plugins:
+  - jekyll-feed
