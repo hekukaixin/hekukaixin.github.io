@@ -1,0 +1,10 @@
+---
+layout: post
+title: 咨询手记
+date: 2016-05-28 15:46
+comments: true
+external-url:
+categories: 咨询
+---
+
+保持中立是困难的。

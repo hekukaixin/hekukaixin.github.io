@@ -6,7 +6,7 @@ $anchor-text-color: #CE534D;
 $background-color: #F1EED9;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Hiragino Sans GB', Hiragino Sans GB;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -33,6 +33,7 @@ a:active {
 a:hover {
 	text-decoration: underline;
 }
+
 
 
 /*** main content list ***/
@@ -72,7 +73,8 @@ since it must be aligned with the content */
 
 /*** author ***/
 .author-container h1 {
-	font-size: 2.8em;
+	font-family: Hei;
+	font-size: 3.6em;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-align: center;
@@ -80,8 +82,10 @@ since it must be aligned with the content */
 
 /*** tagline ***/
 .tagline-container p {
+	font-family: STXihei;
 	font-size: 1.3em;
 	text-align: center;
+	margin-top: 0;
 	margin-bottom: 2em;
 }
 
@@ -132,7 +136,7 @@ footer {
 	aligned right */
 	header {
 		float: left;
-		width: 46%;
+		width: 32%;
 		text-align: right;
 	}
 
@@ -143,8 +147,8 @@ footer {
 	}
 
 	main {
-		width: 46%;
-		margin-left: 54%;
+		width: 70%;
+		margin-left: 42%;
 		padding: 0;
 	}
 }

@@ -1,0 +1,33 @@
+---
+layout: base
+---
+<div class="wrapper">
+    <header>
+        {% if site.compass.logo %}
+        <div class="logo-container">
+          <a class="logo" href="/" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+        </div>
+        {% endif %}
+
+        {% if site.compass.author %}
+        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+        {% endif %}
+
+        {% if site.compass.tagline %}
+        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.compass.include_content %}
+      <div class="writing">
+        {% assign categories = site.categories | sort %}
+        {% for category in categories %}
+        <h2>{{ category | first }}</h2>
+        <p>{% for posts in category %} {% for post in posts %}
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>{% if forloop.last == false %},&nbsp;&nbsp;{% endif %}
+          {% endfor %} {% endfor %}  </p>
+        {% endfor %}
+        </div>
+      {% endif %}
+    </main>
+</div>
