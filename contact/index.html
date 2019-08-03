@@ -18,16 +18,11 @@ layout: base
         {% endif %}
     </header>
     <main>
-      {% if site.compass.include_content %}
-<form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
-    <input type="text" name="email" placeholder="Email Address">
-    <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
-    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
-    <input type="hidden" name="_subject" value="New Contact Form Submission">
-    <input type="text" name="_gotcha" style="display:none">
-    <input type="submit" value="Submit">
-</form>
-      {% endif %}
+    <form class="wj-contact" action="https://formspree.io/hekukaixin@gmail.com" method="POST">
+      <input type="email" placeholder="您的邮件地址" name="_replyto" rows="1">
+      <textarea type="text" name="name" placeholder="您的预约留言" rows="10"></textarea>
+      <input type="submit" value="发送">
+    </form>
     </main>
 </div>
 
@@ -38,7 +33,7 @@ layout: base
 -->
 
 <style>
-form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
+form.wj-contact input[type="text"], input[type="email"], form.wj-contact textarea[type="text"] {
     width: 100%;
     vertical-align: middle;
     margin-top: 0.25em;
@@ -54,12 +49,13 @@ form.wj-contact input[type="text"], form.wj-contact textarea[type="text"] {
     transition: box-shadow .2s ease;
 }
 form.wj-contact input[type="submit"] {
+    align: middle;
     outline: none;
     color: white;
     background-color: #2e83e6;
     border-radius: 3px;
     padding: 0.5em;
-    margin: 0.25em 0 0 0;
+    margin: 2% auto 0 auto;
     border: 1px solid transparent;
     height: auto;
 }
