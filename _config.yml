@@ -6,7 +6,7 @@ emali: hekukaixin@gmail.com
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/qiaoxiaomeng.jpg"
+  logo: "/images/qiaoxiaomeng.png"
   # author will appear under the avatar (optional)
   author: "乔晓萌"
   # tagline will appear under the title (optional)
