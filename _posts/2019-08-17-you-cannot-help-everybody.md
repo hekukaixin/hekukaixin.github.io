@@ -3,7 +3,7 @@ layout: post
 title: 你无法帮助到每一个人，兼谈公益咨询
 date: 2018-08-17 15:46
 comments: true
-external-url:
+external-url:you-can-not-help-everyone
 categories: 咨询手记
 ---
 
