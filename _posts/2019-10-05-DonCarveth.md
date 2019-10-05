@@ -9,10 +9,10 @@ categories: 视频
 由于 B 站审核问题，留档于此，进行备份。
 
 
-  <video controls="true" allowfullscreen="true" width= 60%>
+  <video width="480" controls="true" allowfullscreen="true" >
     <source src="{{site.url}}/videos/bion1.mp4" type="video/mp4">
   </video>
-  <video controls="true" allowfullscreen="true" with= 60%>
+  <video width="480" controls="true" allowfullscreen="true">
     <source src="{{site.url}}/videos/bion2.mp4" type="video/mp4">
   </video>
 
