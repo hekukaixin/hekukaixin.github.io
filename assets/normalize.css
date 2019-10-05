@@ -19,7 +19,7 @@ html {
 body {
   margin: 0;
 }
-
+video { width: 100%; height: auto; }
 /* HTML5 display definitions
    ========================================================================== */
 
