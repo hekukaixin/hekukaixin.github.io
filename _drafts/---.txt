@@ -1,8 +1,0 @@
----
-layout: post
-title: 保持中立是困难的
-date: 2018-08-03 15:46
-comments: true
-external-url:
-categories: 咨询手记
----
